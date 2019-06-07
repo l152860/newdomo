@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+#tab{
+    width: 498px;
+    height:120px;
+    border:1px solid #ccc;
+    margin:100px auto;
+    
+}
+#tab #tab_top ul{
+    width: 500px;
+  
+    background-color:#ececec;
+    height:28px;
+    overflow: hidden;
+   
+} 
+#tab #tab_top ul li{
+    float: left;
+    width: 98px;
+    line-height: 28px;
+    text-align: center;
+    /* background-color: aqua; */
+    padding:0 1px;
+    border-bottom: 1px solid #ececec;
+    cursor: pointer;
+    
+}
+#tab #tab_top ul .nav-re{
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom:none;
+    padding: 0;
+}
+#tab #tab_top ul li:nth-child(1){
+    border-left:none;
+}
+#tab #tab_top ul li:nth-last-child{
+    border-right:none;
+}
+#tab #tab_top ul li:hover{
+    color: orangered;
+    font-weight: bolder;
+}
+/* 头部结束 */
+#tab #tab_bottom .domo{
+    padding-top:20px;
+    display: none;
+}
+#tab #tab_bottom .domo ul li{
+    float: left;
+    width:220px;
+    text-align:center;
+    amrgin:5px;
+}
+#tab #tab_bottom .domo ul li a:hover{
+    color: orangered;
+}
